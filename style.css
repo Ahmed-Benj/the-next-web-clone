@@ -1,0 +1,155 @@
+/* Navbar */
+
+.nav {
+  background: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  height: 48px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    height: 80px;
+    padding-left: 106px;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    padding-left: 0;
+  }
+}
+
+.nav-logo {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+@media (min-width: 1024px) {
+  .nav-logo {
+    -webkit-transform: translateX(-106px);
+    transform: translateX(-106px);
+  }
+}
+
+.nav-logo > a {
+  background-color: #f42;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  display: block;
+  height: 48px;
+  padding: 16px 20px;
+  width: 106px;
+  will-change: height;
+}
+
+@media (min-width: 768px) {
+  .nav-logo > a {
+    height: 80px;
+  }
+}
+
+.nav-logo img {
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+  display: block;
+  height: 16px;
+  position: relative;
+  width: 66px;
+  will-change: transform;
+  z-index: 999;
+}
+
+@media (min-width: 768px) {
+  .nav-logo img {
+    -webkit-transform: translateY(16px);
+    transform: translateY(16px);
+  }
+}
+
+.nav-tnw,
+.nav-sections {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-tnw {
+    background: #131313;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    max-height: 32px;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-tnw li {
+    float: left;
+    margin-left: 12px;
+    position: relative;
+  }
+}
+
+.nav-company {
+  float: right;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .nav-tnw a {
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-tnw:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-sections {
+    display: block;
+    position: absolute;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-sections > li {
+    float: left;
+    position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-sections-section a {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-sections-section a {
+    font-family: Shentox, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
+    display: block;
+    height: 48px;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    padding: 18px 10px 0;
+  }
+}
