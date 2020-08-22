@@ -262,3 +262,41 @@
   -webkit-transform: translateY(6px);
   transform: translateY(6px);
 }
+
+.nav-message {
+  position: relative;
+  margin-left: 0;
+  margin-top: 50px;
+  font-size: 11px;
+  line-height: 24px;
+  background-color: #000;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 6px;
+}
+
+.nav-message-announcement {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+  line-height: 30px;
+  background: #fd3;
+  font-size: 10px;
+  color: #000;
+}
+
+@media (min-width: 480px) {
+  .nav-message {
+    font-size: 13px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-message {
+    margin-left: -106px;
+    padding-left: 126px;
+    text-align: left;
+    margin-top: 50px;
+  }
+}

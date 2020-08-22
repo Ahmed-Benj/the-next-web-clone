@@ -134,6 +134,9 @@ table {
 
 html {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  text-rendering: optimizeLegibility;
 }
 
 *,
