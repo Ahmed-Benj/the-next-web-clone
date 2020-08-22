@@ -145,3 +145,10 @@ html {
 a {
   text-decoration: none;
 }
+
+img,
+video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
