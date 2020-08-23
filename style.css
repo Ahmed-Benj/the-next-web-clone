@@ -140,6 +140,93 @@
   color: #000;
 }
 
+/* Main */
+
+.main {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  padding-top: 77px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    padding-top: 104px;
+  }
+}
+
+/*featured-stories*/
+
+.featured-stories {
+  margin: 0 auto;
+  padding: 4px;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .featured-stories {
+    height: 75vh;
+    max-height: 560px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .featured-stories {
+    height: 60vh;
+  }
+}
+
+.featured-story {
+  float: left;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .featured-stories article {
+    float: left;
+    height: 50%;
+    width: 33.33333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featured-stories article:first-child {
+    height: 100%;
+    width: 66.66666%;
+  }
+}
+
+@media (max-width: 767px) {
+  .featured-stories article {
+    min-height: 30vh;
+    position: relative;
+  }
+}
+
+.featured-image {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/1-52-796x417.jpg);
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
+}
+
 /* media queries */
 
 @media (min-width: 768px) {
