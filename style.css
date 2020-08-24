@@ -330,6 +330,11 @@
   color: white;
 }
 
+.wrapper {
+}
+
+/* main wrapper */
+
 /* media queries */
 
 @media (min-width: 768px) {
