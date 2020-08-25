@@ -330,6 +330,8 @@
   color: white;
 }
 
+/* main wrapper */
+
 .wrapper {
   margin: 0 auto;
   max-width: 1192px;
@@ -367,7 +369,6 @@
     min-height: 72px;
     padding-left: 88px;
     position: relative;
-    padding: 12px;
   }
 }
 
@@ -395,6 +396,16 @@
   padding: 5px 0;
 }
 
+.latest h2 a {
+  color: rgb(255, 68, 34);
+  cursor: pointer;
+  display: inline;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-stretch: 100%;
+  font-weight: 700;
+}
+
 .latest-ul-li ul li,
 .latest-ul-li ul li a {
   color: #aaa;
@@ -406,7 +417,9 @@
   padding-right: 5px;
 }
 
-/* main wrapper */
+.latest h2 {
+  margin: 40px 0 10px 0;
+}
 
 /* media queries */
 
