@@ -436,7 +436,7 @@
   font-weight: 700;
 }
 
-a {
+.deals-header-link {
   color: #f42;
   text-decoration: none;
   font-family: "Times New Roman";
@@ -504,6 +504,17 @@ a {
   clear: both;
   content: "";
   display: block;
+}
+
+.deals-content {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: 25px 0;
+}
+
+.deal-content {
+  margin: 7px;
 }
 
 /* media queries */
