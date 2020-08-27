@@ -517,6 +517,17 @@
   margin: 7px;
 }
 
+.content {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: 25px 0;
+}
+
+.content1 {
+  margin: 5px;
+}
+
 /* media queries */
 
 @media (min-width: 768px) {
