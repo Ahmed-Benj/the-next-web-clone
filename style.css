@@ -171,7 +171,9 @@
   width: 100%;
 }
 
-#featured-image {
+#featured-image1,
+#featured-image2,
+#featured-image3 {
   width: 100%;
   bottom: 4px;
   left: 4px;
@@ -439,7 +441,7 @@
 }
 
 @media (min-width: 768px) {
-  .nav-tnw li {
+  .float-left {
     float: left;
     margin-left: 12px;
     position: relative;
@@ -730,5 +732,14 @@
 @media (max-width: 1024px) and (max-width: 768px) {
   .deals-header-more:first-of-type {
     padding-top: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .float-right {
+    float: right;
+    margin-left: 12px;
+    position: relative;
+    padding-right: 10px;
   }
 }
