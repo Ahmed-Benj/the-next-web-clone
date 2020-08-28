@@ -342,25 +342,16 @@
 .footer {
   height: 257px;
   margin-top: 50px;
+  text-align: center;
 }
 
 .footer-1 {
   height: 70%;
   background: #131313;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .footer-1 div {
   padding: 18px;
-}
-
-.footer-social ul,
-.footer-menu ul {
-  display: flex;
-  justify-content: center;
 }
 
 .footer-social ul li {
@@ -368,10 +359,9 @@
   margin: 0 8px;
   background: #333;
   border-radius: 50%;
-  display: block;
+  display: inline-block;
   height: 40px;
   padding: 12px;
-  text-align: center;
   width: 40px;
 }
 
@@ -382,6 +372,7 @@
   font-stretch: 100%;
   font-weight: 500;
   margin: 0 8px;
+  display: inline-block;
 }
 
 .footer-2 {
@@ -702,7 +693,6 @@
     width: 75px;
   }
 }
-
 
 @media (min-width: 768px) {
   .deals-header-more {
