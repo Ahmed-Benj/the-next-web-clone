@@ -86,6 +86,10 @@
   z-index: 998;
 }
 
+.featured-story a {
+  color: #fff;
+}
+
 .nav-icons li a {
   display: block;
   height: 48px;
@@ -151,18 +155,6 @@
   z-index: 2;
 }
 
-@media (min-width: 768px) {
-  .main {
-    padding-top: 80px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .main {
-    padding-top: 104px;
-  }
-}
-
 /* featured-stories */
 
 .featured-stories {
@@ -171,68 +163,12 @@
   position: relative;
 }
 
-@media (min-width: 1024px) {
-  .featured-stories {
-    height: 75vh;
-    max-height: 560px;
-  }
-}
-
-@media (min-width: 1600px) {
-  .featured-stories {
-    height: 60vh;
-  }
-}
-
-@media (max-width: 1023px) and (min-width: 768px) {
-  .featured-stories {
-    height: 60vh;
-  }
-}
-
 .featured-story {
   float: left;
   overflow: hidden;
   padding: 4px;
   position: relative;
   width: 100%;
-}
-
-@media (max-width: 1023px) and (min-width: 768px) {
-  .featured-stories article {
-    float: left;
-    height: 50%;
-    width: 33.33333%;
-  }
-}
-
-@media (max-width: 1023px) and (min-width: 768px) {
-  .featured-stories :first-child {
-    height: 100%;
-    width: 66.66%;
-  }
-}
-
-@media (min-width: 768px) {
-  .featured-stories article {
-    float: left;
-    height: 50%;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .featured-stories article:first-child {
-    height: 100%;
-    width: 66.66666%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .featured-stories article {
-    min-height: 30vh;
-    position: relative;
-  }
 }
 
 #featured-image {
@@ -255,63 +191,11 @@
   top: 4px;
   right: 4px;
   transition: background-color 0.4s ease;
-  background: rgba(0, 0, 0, 0.25)
-    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png)
-    no-repeat;
+  background: rgba(0, 0, 0, 0.25) url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) no-repeat;
   background-size: 100% 100%;
   display: block;
   will-change: background-color;
   z-index: 2;
-}
-
-.featured-story a {
-  color: #fff;
-}
-
-@media (min-width: 1024px) {
-  .featured-gradient {
-    background: transparent
-      url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png)
-      no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-    bottom: 4px;
-    left: 4px;
-    mix-blend-mode: lighten;
-    pointer-events: none;
-    position: absolute;
-    right: 4px;
-    top: 4px;
-    z-index: 4;
-  }
-}
-
-@media (min-width: 1024px) {
-  .featured-logo {
-    background: transparent
-      url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
-      no-repeat;
-    background-size: contain;
-    left: 24px;
-    max-width: 50%;
-    height: 100%;
-    max-height: 112px;
-    line-height: 1;
-    top: 24px;
-    pointer-events: none;
-    text-align: right;
-    color: #fff;
-    position: absolute;
-    right: 24px;
-    z-index: 5;
-  }
-}
-
-@media (min-width: 1600px) {
-  .featured-logo {
-    background-size: contain;
-    height: 96px;
-  }
 }
 
 .featured-title {
@@ -346,40 +230,6 @@
 .latest-ul-li {
   max-width: 100%;
   flex-basis: 100%;
-}
-
-@media (min-width: 768px) {
-  .latest-ul-li {
-    max-width: 33%;
-    flex-basis: 33%;
-    padding: 12px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .latest-ul-li {
-    max-width: 25%;
-    flex-basis: 25%;
-    padding: 12px;
-  }
-}
-
-@media (max-width: 767px) {
-  .latest-ul-li {
-    min-height: 72px;
-    padding-left: 88px;
-    position: relative;
-  }
-}
-
-@media (max-width: 767px) {
-  .latest-ul-li img {
-    left: 0;
-    padding-top: 5px;
-    position: absolute;
-    top: 0;
-    width: 75px;
-  }
 }
 
 .latest-ul-li h4 {
@@ -439,7 +289,7 @@
 .deals-header-link {
   color: #f42;
   text-decoration: none;
-  font-family: "Times New Roman";
+  font-family: Avalon, sans-serif;
   font-size: 16px;
 }
 
@@ -457,47 +307,8 @@
   margin-top: 11px;
 }
 
-@media (min-width: 768px) {
-  .deals-header-more {
-    font-size: 16px;
-    margin-top: 10px;
-  }
-}
-
 .deals-header-more:not(:first-of-type) {
   margin-right: 23px;
-}
-
-@media (max-width: 1024px) {
-  .deals-header-more {
-    float: left;
-    display: block;
-  }
-}
-
-@media (max-width: 1024px) and (max-width: 768px) {
-  .deals-header-more {
-    float: none;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 1024px) {
-  .deals-header-more:not(:last-of-type) {
-    margin-right: 23px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .deals-header-more:first-of-type {
-    clear: both;
-  }
-}
-
-@media (max-width: 1024px) and (max-width: 768px) {
-  .deals-header-more:first-of-type {
-    padding-top: 1em;
-  }
 }
 
 .deals-header::after {
@@ -526,6 +337,65 @@
 
 .content1 {
   margin: 5px;
+}
+
+.footer {
+  height: 257px;
+  margin-top: 50px;
+}
+
+.footer-1 {
+  height: 70%;
+  background: #131313;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-1 div {
+  padding: 18px;
+}
+
+.footer-social ul,
+.footer-menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social ul li {
+  color: white;
+  margin: 0 8px;
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-menu ul li {
+  color: #aaa;
+  font-family: Shentox, sans-serif;
+  font-size: 13px;
+  font-stretch: 100%;
+  font-weight: 500;
+  margin: 0 8px;
+}
+
+.footer-2 {
+  height: 30%;
+  background: #000;
+}
+
+.footer-2 p {
+  color: rgb(170, 170, 170);
+  display: block;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 30px;
 }
 
 /* media queries */
@@ -686,5 +556,189 @@
     padding-left: 126px;
     text-align: left;
     margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    padding-top: 104px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featured-stories {
+    height: 75vh;
+    max-height: 560px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .featured-stories {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .featured-stories {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .featured-stories article {
+    float: left;
+    height: 50%;
+    width: 33.33333%;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .featured-stories :first-child {
+    height: 100%;
+    width: 66.66%;
+  }
+}
+
+@media (min-width: 768px) {
+  .featured-stories article {
+    float: left;
+    height: 50%;
+    width: 33.33333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featured-stories article:first-child {
+    height: 100%;
+    width: 66.66666%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .featured-stories article {
+    min-height: 30vh;
+    position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featured-gradient {
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    bottom: 4px;
+    left: 4px;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 4;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featured-logo {
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+    background-size: contain;
+    left: 24px;
+    max-width: 50%;
+    height: 100%;
+    max-height: 112px;
+    line-height: 1;
+    top: 24px;
+    pointer-events: none;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    right: 24px;
+    z-index: 5;
+  }
+}
+
+@media (min-width: 1600px) {
+  .featured-logo {
+    background-size: contain;
+    height: 96px;
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-ul-li {
+    max-width: 33%;
+    flex-basis: 33%;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .latest-ul-li {
+    max-width: 25%;
+    flex-basis: 25%;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .latest-ul-li {
+    min-height: 72px;
+    padding-left: 88px;
+    position: relative;
+  }
+}
+
+@media (max-width: 767px) {
+  .latest-ul-li img {
+    left: 0;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    width: 75px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .deals-header-more {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .deals-header-more {
+    float: left;
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) and (max-width: 768px) {
+  .deals-header-more {
+    float: none;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .deals-header-more:not(:last-of-type) {
+    margin-right: 23px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .deals-header-more:first-of-type {
+    clear: both;
+  }
+}
+
+@media (max-width: 1024px) and (max-width: 768px) {
+  .deals-header-more:first-of-type {
+    padding-top: 1em;
   }
 }
