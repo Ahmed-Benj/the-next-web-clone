@@ -14,7 +14,7 @@ background images
 gradient
 media queries
 
-![screenshot](.img/screencapture-127-0-0-1-5500-index-html-2020-08-28-02_20_22.png)
+![screenshot](./img/screencapture-127-0-0-1-5500-index-html-2020-08-28-02_20_22.png)
 
 ## Built With
 
