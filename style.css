@@ -319,6 +319,9 @@
 
 .deal-content {
   margin: 7px;
+  flex-basis: 100%;
+  max-width: 100%;
+}
 }
 
 .content {
@@ -642,7 +645,9 @@
 
 @media (min-width: 1024px) {
   .featured-gradient {
-    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+    background: transparent
+      url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png)
+      no-repeat;
     background-position: 0 0;
     background-size: cover;
     bottom: 4px;
@@ -658,7 +663,9 @@
 
 @media (min-width: 1024px) {
   .featured-logo {
-    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+    background: transparent
+      url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
+      no-repeat;
     background-size: contain;
     left: 24px;
     max-width: 50%;
@@ -752,6 +759,27 @@
 @media (max-width: 1024px) and (max-width: 768px) {
   .deals-header-more:first-of-type {
     padding-top: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .deal-content {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .deal-content {
+    -webkit-flex-basis: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .deal-content:nth-child(4) {
+    display: none;
   }
 }
 
