@@ -468,7 +468,7 @@
 .footer-2-wrapper {
   display: flex;
   align-items: baseline;
-  width: 717px;
+  width: 570px;
   margin: 0 auto;
 }
 
@@ -867,9 +867,7 @@
 
 @media (min-width: 1024px) {
   .featured-gradient {
-    background: transparent
-      url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png)
-      no-repeat;
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
     background-position: 0 0;
     background-size: cover;
     bottom: 4px;
@@ -885,9 +883,7 @@
 
 @media (min-width: 1024px) {
   .featured-logo {
-    background: transparent
-      url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
-      no-repeat;
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
     background-size: contain;
     left: 24px;
     max-width: 50%;
