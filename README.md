@@ -14,7 +14,7 @@ background images
 gradient
 media queries
 
-![screenshot](./img/screencapture-127-0-0-1-5500-index-html-2020-08-28-02_20_22.png)
+![screenshot](./assets/img/screencapture-127-0-0-1-5500-index-html-2020-09-05-17_00_33.png)
 
 ## Built With
 
@@ -23,7 +23,7 @@ media queries
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Ahmed-Benj/the-next-web-clone/1a6c7b13a89986a56c41e17b79c89541ef66e571/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Ahmed-Benj/the-next-web-clone/af8f57ed4c83099843bb5961c2be50b3b0cd0b66/index.html)
 
 #### Prerequisites
 
