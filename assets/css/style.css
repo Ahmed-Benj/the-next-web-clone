@@ -492,20 +492,21 @@
   position: relative;
   flex-basis: 100%;
   max-width: 100%;
-  margin: 5px;
 }
 
 @media (min-width: 768px) {
   .content1 {
     flex-basis: 50%;
     max-width: 50%;
+    padding: 10px;
   }
 }
 
 @media (min-width: 1024px) {
   .content1 {
-    flex-basis: 32%;
+    flex-basis: 33.33333333333%;
     max-width: 33.3333333333%;
+    padding: 12px;
   }
 }
 
@@ -520,8 +521,6 @@
 }
 
 .section-popular {
-  height: 0;
-  padding-top: 75%;
   position: relative;
   width: 100%;
 }
@@ -530,14 +529,8 @@
   background-color: #000;
   background-size: cover;
   background-position: 50%;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
   z-index: 1;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
-  width: 368px;
   height: 276px;
   opacity: 1;
 }
@@ -571,9 +564,9 @@
 }
 
 .section-latest-header {
-  padding: 10px 14px 0;
   display: flex;
   align-items: center;
+  flex-basis: 100%;
 }
 
 .section-latest-title {
