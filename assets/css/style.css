@@ -853,7 +853,7 @@
 
 @media (max-width: 1024px) {
   .featured-stories article {
-    min-height: 30vh;
+    min-height: 29vh;
     position: relative;
   }
 }
