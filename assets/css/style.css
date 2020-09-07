@@ -73,7 +73,7 @@
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
-  opacity: 1 !important;
+  opacity: 1;
   position: relative;
   z-index: 998;
 }
@@ -366,17 +366,14 @@
   color: #fff;
   font-weight: 700;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  margin: 0 !important;
-  font-size: 18px !important;
+  margin: 0;
+  font-size: 18px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.deal-content-container h4 {
-  font-size: 16px;
-  margin-bottom: 12px;
-}
+
 
 .deal-content1 div {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
@@ -801,8 +798,9 @@
 
   .deal-content-container h4 {
     font-family: Avalon, sans-serif;
-    font-size: 24px;
     line-height: 1;
+    font-size: 16px;
+  margin-bottom: 1px;
   }
 }
 
