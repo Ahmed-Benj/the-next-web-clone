@@ -23,7 +23,7 @@ media queries
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Ahmed-Benj/the-next-web-clone/af8f57ed4c83099843bb5961c2be50b3b0cd0b66/index.html)
+- [Live Demo Link](coming soon)
 
 #### Prerequisites
 
