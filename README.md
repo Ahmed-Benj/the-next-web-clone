@@ -23,7 +23,7 @@ media queries
 
 ## Live Demo
 
-- [Live Demo Link](https://ahmed-benj.github.io/the-next-web-clone/)
+- [Live Demo Link](coming soon)
 
 #### Prerequisites
 
