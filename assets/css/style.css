@@ -10,7 +10,9 @@
 .d-flex {
 display: flex;
 }
-
+ .float-left {
+  float: left;
+ }
 /* Navbar */
 
 .nav {
@@ -76,7 +78,6 @@ display: flex;
 
 .nav-icons li {
   border-left: 1px solid #eee;
-  float: left;
 }
 
 .nav-mob-toggle {
@@ -276,7 +277,6 @@ display: flex;
 
 .deals-header h2 {
   color: rgb(255, 68, 34);
-  float: left;
   font-family: Avalon, sans-serif;
   font-size: 28px;
   font-stretch: 100%;
@@ -634,9 +634,6 @@ display: flex;
     position: absolute;
   }
 
-  .nav-sections > li {
-    float: left;
-  }
 
   .nav-sections-section a {
     font-family: Shentox, sans-serif;
@@ -793,11 +790,6 @@ display: flex;
   .featured-stories article {
     min-height: 226px;
     position: relative;
-  }
-
-  .deals-header-more {
-    float: left;
-    display: block;
   }
 
   .deals-header-more:not(:last-of-type) {
