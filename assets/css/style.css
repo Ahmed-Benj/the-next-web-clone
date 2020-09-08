@@ -371,8 +371,6 @@
   text-overflow: ellipsis;
 }
 
-
-
 .deal-content1 div {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   color: #000;
@@ -798,7 +796,7 @@
     font-family: Avalon, sans-serif;
     line-height: 1;
     font-size: 16px;
-  margin-bottom: 1px;
+    margin-bottom: 1px;
   }
 }
 
@@ -873,7 +871,7 @@
 @media (max-width: 1023px) and (min-width: 768px) {
   .featured-stories :first-child {
     height: 100%;
-    width: 509PX;
+    width: 509px;
   }
 }
 
