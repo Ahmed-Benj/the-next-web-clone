@@ -2,6 +2,10 @@
   display: block;
 }
 
+.relative-position {
+  position: relative;
+}
+
 /* Navbar */
 
 .nav {
@@ -34,7 +38,6 @@
   transition: transform 0.4s ease;
   transition: transform 0.4s ease, -webkit-transform 0.4s ease;
   height: 16px;
-  position: relative;
   width: 66px;
   will-change: transform;
   z-index: 999;
@@ -76,7 +79,6 @@
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
   opacity: 1;
-  position: relative;
   z-index: 998;
 }
 
@@ -124,7 +126,6 @@
 }
 
 .nav-message {
-  position: relative;
   margin-left: 0;
   margin-top: 50px;
   font-size: 11px;
@@ -152,7 +153,6 @@
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   padding-top: 77px;
-  position: relative;
   z-index: 2;
 }
 
@@ -161,7 +161,6 @@
 .featured-stories {
   margin: 0 auto;
   padding: 4px;
-  position: relative;
 }
 
 .featured-story {
@@ -325,14 +324,9 @@
 .deal-content-container {
   flex: 0 0 auto;
   padding: 8px;
-  position: relative;
   flex-basis: 100%;
   max-width: 100%;
   min-height: 60px;
-}
-
-.deal-content1 {
-  position: relative;
 }
 
 .h4 {
@@ -466,7 +460,6 @@
 .content1 {
   flex: 0 0 auto;
   padding: 8px;
-  position: relative;
   flex-basis: 100%;
   max-width: 100%;
 }
@@ -482,7 +475,6 @@
 }
 
 .section-popular {
-  position: relative;
   width: 100%;
 }
 
@@ -556,7 +548,6 @@
 
 .section-headline p {
   padding: 6px 0 6px 14px;
-  position: relative;
   color: #555;
 }
 
@@ -615,7 +606,6 @@
   .float-right {
     float: right;
     margin-left: 12px;
-    position: relative;
     padding-right: 10px;
   }
 
@@ -633,7 +623,6 @@
   .float-left {
     float: left;
     margin-left: 12px;
-    position: relative;
   }
 
   .nav-tnw a {
@@ -662,7 +651,6 @@
 
   .nav-sections > li {
     float: left;
-    position: relative;
   }
 
   .nav-sections-section a {
