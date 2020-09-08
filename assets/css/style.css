@@ -18,6 +18,18 @@
   float: left;
 }
 
+.font-stretch {
+  font-stretch: 100%;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.font-family {
+  font-family: Avalon, sans-serif;
+}
+
 /* Navbar */
 
 .nav {
@@ -214,9 +226,7 @@
   position: absolute;
   right: 4px;
   z-index: 3;
-  font-family: Avalon, sans-serif;
   font-size: 25px;
-  font-stretch: 100%;
   height: 112px;
   color: white;
 }
@@ -241,7 +251,6 @@
 .latest-ul-li h4 {
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
-  font-stretch: 100%;
   padding: 5px 0;
 }
 
@@ -254,9 +263,7 @@
   color: rgb(255, 68, 34);
   cursor: pointer;
   display: inline;
-  font-family: Avalon, sans-serif;
   font-size: 28px;
-  font-stretch: 100%;
 }
 
 .latest-ul-li ul li,
@@ -265,7 +272,6 @@
   flex-direction: row;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
-  font-stretch: 100%;
   font-weight: 400;
   padding-right: 5px;
 }
@@ -282,15 +288,12 @@
 
 .deals-header h2 {
   color: rgb(255, 68, 34);
-  font-family: Avalon, sans-serif;
   font-size: 28px;
-  font-stretch: 100%;
 }
 
 .deals-header-link {
   color: #f42;
   text-decoration: none;
-  font-family: Avalon, sans-serif;
   font-size: 16px;
 }
 
@@ -420,7 +423,6 @@
   color: #aaa;
   font-family: Shentox, sans-serif;
   font-size: 13px;
-  font-stretch: 100%;
   font-weight: 500;
   margin: 0 2px;
   display: inline-block;
@@ -461,9 +463,7 @@
   color: rgb(255, 68, 34);
   cursor: pointer;
   display: inline;
-  font-family: Avalon, sans-serif;
   font-size: 28px;
-  font-stretch: 100%;
 }
 
 .section-popular {
@@ -757,7 +757,6 @@
   }
 
   .deal-content-container h4 {
-    font-family: Avalon, sans-serif;
     line-height: 1;
     font-size: 16px;
     margin-bottom: 1px;
