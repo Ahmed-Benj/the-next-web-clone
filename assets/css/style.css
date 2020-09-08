@@ -30,12 +30,15 @@
   font-family: Avalon, sans-serif;
 }
 
+.h-48 {
+  height: 48px;
+}
+
 /* Navbar */
 
 .nav {
   background: #fff;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
-  height: 48px;
   left: 0;
   position: fixed;
   right: 0;
@@ -45,13 +48,11 @@
 
 .nav-logo {
   left: 0;
-  position: absolute;
   top: 0;
 }
 
 .nav-logo > a {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
-  height: 48px;
   padding: 16px 20px;
   width: 106px;
   will-change: height;
@@ -78,13 +79,10 @@
 }
 
 .nav-countdown {
-  position: absolute;
-  height: 48px;
   left: 50%;
 }
 
 .nav-countdown-wrapper {
-  height: 48px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
@@ -119,7 +117,6 @@
 }
 
 .nav-icons li a {
-  height: 48px;
   opacity: 0.25;
   padding: 16px;
   width: 48px;
@@ -133,7 +130,6 @@
   height: 2px;
   left: 14px;
   margin-top: -1px;
-  position: absolute;
   top: 50%;
   width: 20px;
 }
@@ -198,7 +194,6 @@
   width: 100%;
   bottom: 4px;
   left: 4px;
-  position: absolute;
   top: 4px;
   right: 4px;
   background-color: #000;
@@ -210,7 +205,6 @@
 .featuring-coloring {
   bottom: 4px;
   left: 4px;
-  position: absolute;
   top: 4px;
   right: 4px;
   transition: background-color 0.4s ease;
@@ -223,7 +217,6 @@
   bottom: 4px;
   left: 4px;
   padding: 14px 12px;
-  position: absolute;
   right: 4px;
   z-index: 3;
   font-size: 25px;
@@ -484,7 +477,6 @@
   bottom: 0;
   left: 0;
   padding: 14px;
-  position: absolute;
   right: 0;
   z-index: 3;
   top: 0;
@@ -551,7 +543,6 @@
   .nav {
     height: 80px;
     padding-left: 106px;
-    position: absolute;
   }
 
   .nav-icons .nav-mob-toggle {
@@ -634,7 +625,6 @@
 
   .nav-sections {
     display: block;
-    position: absolute;
   }
 
   .nav-sections-section a {
@@ -644,7 +634,6 @@
     text-transform: uppercase;
     color: #aaa;
     display: block;
-    height: 48px;
     letter-spacing: 0.04em;
     line-height: 1;
     padding: 18px 10px 0;
@@ -722,7 +711,6 @@
     left: 4px;
     mix-blend-mode: lighten;
     pointer-events: none;
-    position: absolute;
     right: 4px;
     top: 4px;
     z-index: 4;
@@ -779,7 +767,7 @@
 
   .nav-message {
     font-size: 13px;
-    margin-top: 50px;
+    margin-top: 48px;
   }
 }
 
