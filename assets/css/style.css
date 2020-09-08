@@ -1,3 +1,7 @@
+.display_block {
+  display: block;
+}
+
 /* Navbar */
 
 .nav {
@@ -19,7 +23,6 @@
 
 .nav-logo > a {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
-  display: block;
   height: 48px;
   padding: 16px 20px;
   width: 106px;
@@ -30,7 +33,6 @@
   transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease;
   transition: transform 0.4s ease, -webkit-transform 0.4s ease;
-  display: block;
   height: 16px;
   position: relative;
   width: 66px;
@@ -88,12 +90,10 @@
   font-size: 13px;
   color: #555;
   margin-right: 1em;
-  display: block;
   line-height: 22px;
 }
 
 .nav-icons li a {
-  display: block;
   height: 48px;
   opacity: 0.25;
   padding: 16px;
@@ -105,7 +105,6 @@
 .nav-mob-toggle > span {
   transition: 0.4s;
   background-color: #f42;
-  display: block;
   height: 2px;
   left: 14px;
   margin-top: -1px;
@@ -194,7 +193,6 @@
   right: 4px;
   transition: background-color 0.4s ease;
   background-size: 100% 100%;
-  display: block;
   will-change: background-color;
   z-index: 2;
 }
@@ -206,7 +204,6 @@
   position: absolute;
   right: 4px;
   z-index: 3;
-  display: block;
   font-family: Avalon, sans-serif;
   font-size: 25px;
   font-stretch: 100%;
@@ -336,7 +333,6 @@
 
 .deal-content1 {
   position: relative;
-  display: block;
 }
 
 .h4 {
@@ -379,7 +375,7 @@
 }
 
 .deal-content1 div h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   margin: 0 !important;
   font-weight: 700;
@@ -456,7 +452,6 @@
 
 .footer-2 p {
   color: rgb(170, 170, 170);
-  display: block;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 6px;
   text-align: center;
@@ -560,7 +555,6 @@
 }
 
 .section-headline p {
-  display: block;
   padding: 6px 0 6px 14px;
   position: relative;
   color: #555;
