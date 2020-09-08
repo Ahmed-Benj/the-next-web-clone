@@ -371,6 +371,8 @@
   text-overflow: ellipsis;
 }
 
+
+
 .deal-content1 div {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   color: #000;
@@ -686,11 +688,11 @@
 }
 
 @media (min-width: 1024px) {
- .content1 {
+  .content1 {
     flex-basis: 33.33333333333%;
     max-width: 33.3333333333%;
     padding: 12px;
- }
+  }
 
   .nav {
     padding-left: 0;
@@ -798,6 +800,7 @@
     font-size: 16px;
   margin-bottom: 1px;
   }
+}
 
 @media (min-width: 480px) {
   .nav-countdown {
@@ -849,13 +852,13 @@
 
 @media (min-width: 1600px) {
   .featured-stories {
-    height: 60vh;
+    height: 75vh;
   }
 }
 
 @media (max-width: 1023px) and (min-width: 768px) {
   .featured-stories {
-    height: 60vh;
+    height: 78vh;
   }
 }
 
