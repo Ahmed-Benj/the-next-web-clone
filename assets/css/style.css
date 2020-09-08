@@ -7,6 +7,9 @@
 .font-700 {
   font-weight: 700;
 }
+.d-flex {
+display: flex;
+}
 
 /* Navbar */
 
@@ -221,7 +224,6 @@
 }
 
 .latest-ul {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -238,7 +240,6 @@
 }
 
 .latest-ul-li ul {
-  display: flex;
   flex-direction: row;
   padding: 5px 0;
 }
@@ -313,7 +314,6 @@
 }
 
 .deals-content {
-  display: flex;
   flex: 0 1 auto;
   flex-flow: row wrap;
   margin: 25px 0;
@@ -382,7 +382,6 @@
 }
 
 .content {
-  display: flex;
   flex: 0 1 auto;
   flex-flow: row wrap;
   margin: 25px 0;
@@ -430,7 +429,6 @@
 }
 
 .footer-2-wrapper {
-  display: flex;
   align-items: baseline;
   width: 350px;
   margin: 0 auto;
@@ -500,14 +498,12 @@
 }
 
 .section-latest {
-  display: flex;
   flex-direction: row;
   background-color: rgba(255, 68, 34, 0.06);
   margin: 2px 0;
 }
 
 .section-latest-header {
-  display: flex;
   align-items: center;
   flex-basis: 100%;
 }
