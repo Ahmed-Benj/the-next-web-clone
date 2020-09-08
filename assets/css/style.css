@@ -1,18 +1,23 @@
 .display_block {
   display: block;
 }
+
 .relative-position {
   position: relative;
 }
+
 .font-700 {
   font-weight: 700;
 }
+
 .d-flex {
-display: flex;
+  display: flex;
 }
- .float-left {
+
+.float-left {
   float: left;
- }
+}
+
 /* Navbar */
 
 .nav {
@@ -327,8 +332,6 @@ display: flex;
   min-height: 60px;
 }
 
-
-
 .deal-content1 img {
   width: 60px;
   min-width: 60px;
@@ -633,7 +636,6 @@ display: flex;
     display: block;
     position: absolute;
   }
-
 
   .nav-sections-section a {
     font-family: Shentox, sans-serif;
